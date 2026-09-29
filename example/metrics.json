@@ -1,0 +1,1126 @@
+{
+  "corpus_documents": 12,
+  "dev_queries": 16,
+  "test_queries": 30,
+  "fingerprints": {
+    "corpus": "366c31aef33b1268240ee9b743c8d60fae03c5ea989e8155580e81212dd6971c",
+    "dev": "1ffbaffc166d30a893dc7d6920556335327cff4639be2807471ef0a66151d07a",
+    "test": "006a23bc34a642d336db3642f25fde5ccc3ff6d2ccb80ea65de521838bc5226e"
+  },
+  "methods": {
+    "overlap": {
+      "threshold": 0.65,
+      "development": {
+        "queries": 16,
+        "answerable_queries": 12,
+        "decision_accuracy": 1.0,
+        "coverage": 0.75,
+        "answered_precision": 1.0,
+        "hit_at_1": 1.0,
+        "mrr_at_3": 1.0,
+        "details": [
+          {
+            "id": "dev01",
+            "query": "J'ai oublié mon mot de passe, où demander un lien ?",
+            "relevant_id": "access-password",
+            "predicted_id": "access-password",
+            "correct": true,
+            "top_score": 0.6666666666666666,
+            "ranked_ids": [
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev02",
+            "query": "Je veux activer la double authentification",
+            "relevant_id": "access-mfa",
+            "predicted_id": "access-mfa",
+            "correct": true,
+            "top_score": 0.75,
+            "ranked_ids": [
+              "access-mfa"
+            ]
+          },
+          {
+            "id": "dev03",
+            "query": "Où télécharger une facture PDF ?",
+            "relevant_id": "billing-invoice",
+            "predicted_id": "billing-invoice",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "dev04",
+            "query": "Comment modifier ma carte bancaire ?",
+            "relevant_id": "billing-card",
+            "predicted_id": "billing-card",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "billing-card",
+              "team-role"
+            ]
+          },
+          {
+            "id": "dev05",
+            "query": "Je souhaite résilier mon abonnement",
+            "relevant_id": "plan-cancel",
+            "predicted_id": "plan-cancel",
+            "correct": true,
+            "top_score": 0.6666666666666666,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "dev06",
+            "query": "Inviter un nouveau membre par email",
+            "relevant_id": "team-invite",
+            "predicted_id": "team-invite",
+            "correct": true,
+            "top_score": 0.75,
+            "ranked_ids": [
+              "team-invite",
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev07",
+            "query": "Changer le rôle lecteur en éditeur",
+            "relevant_id": "team-role",
+            "predicted_id": "team-role",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "team-role",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "dev08",
+            "query": "Exporter les données CSV avec les filtres",
+            "relevant_id": "data-export",
+            "predicted_id": "data-export",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "data-export",
+              "account-delete",
+              "data-import"
+            ]
+          },
+          {
+            "id": "dev09",
+            "query": "Quelle taille maximale pour importer un CSV ?",
+            "relevant_id": "data-import",
+            "predicted_id": "data-import",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "dev10",
+            "query": "Créer une clé API avec des permissions",
+            "relevant_id": "integration-api",
+            "predicted_id": "integration-api",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "dev11",
+            "query": "Désactiver les alertes email",
+            "relevant_id": "notifications",
+            "predicted_id": "notifications",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "notifications",
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev12",
+            "query": "Supprimer définitivement mon compte",
+            "relevant_id": "account-delete",
+            "predicted_id": "account-delete",
+            "correct": true,
+            "top_score": 1.0,
+            "ranked_ids": [
+              "account-delete",
+              "integration-api"
+            ]
+          },
+          {
+            "id": "dev13",
+            "query": "Quel est le cours du pétrole ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "dev14",
+            "query": "Est-ce que le paiement en cryptomonnaie est accepté ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.3333333333333333,
+            "ranked_ids": [
+              "billing-card"
+            ]
+          },
+          {
+            "id": "dev15",
+            "query": "Combien coûte votre abonnement annuel ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.25,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "dev16",
+            "query": "Existe-t-il une application Android ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.3333333333333333,
+            "ranked_ids": [
+              "access-mfa"
+            ]
+          }
+        ]
+      },
+      "test": {
+        "queries": 30,
+        "answerable_queries": 24,
+        "decision_accuracy": 0.4666666666666667,
+        "coverage": 0.26666666666666666,
+        "answered_precision": 1.0,
+        "hit_at_1": 0.8333333333333334,
+        "mrr_at_3": 0.8541666666666666,
+        "details": [
+          {
+            "id": "test01",
+            "query": "Mon lien de réinitialisation a expiré, combien de minutes dure-t-il ?",
+            "relevant_id": "access-password",
+            "predicted_id": "access-password",
+            "correct": true,
+            "top_score": 0.6666666666666666,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test02",
+            "query": "Je ne me souviens plus de mon secret de connexion",
+            "relevant_id": "access-password",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.2,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test03",
+            "query": "Où conserver mes codes de récupération après activation ?",
+            "relevant_id": "access-mfa",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.6000000000000001,
+            "ranked_ids": [
+              "access-mfa",
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test04",
+            "query": "Comment ajouter une seconde vérification à la connexion ?",
+            "relevant_id": "access-mfa",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.25,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test05",
+            "query": "Un lecteur peut-il accéder aux factures du mois ?",
+            "relevant_id": "billing-invoice",
+            "predicted_id": "billing-invoice",
+            "correct": true,
+            "top_score": 0.75,
+            "ranked_ids": [
+              "billing-invoice",
+              "billing-card",
+              "notifications"
+            ]
+          },
+          {
+            "id": "test06",
+            "query": "Je cherche le justificatif de mon achat en PDF",
+            "relevant_id": "billing-invoice",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.25,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "test07",
+            "query": "Je veux une autre carte pour le prochain prélèvement",
+            "relevant_id": "billing-card",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.6000000000000001,
+            "ranked_ids": [
+              "billing-card"
+            ]
+          },
+          {
+            "id": "test08",
+            "query": "Mon moyen de règlement doit être remplacé",
+            "relevant_id": "billing-card",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test09",
+            "query": "Après résiliation, le service reste-t-il accessible ?",
+            "relevant_id": "plan-cancel",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.6000000000000001,
+            "ranked_ids": [
+              "plan-cancel",
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test10",
+            "query": "Je voudrais arrêter le renouvellement",
+            "relevant_id": "plan-cancel",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.3333333333333333,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "test11",
+            "query": "Combien de jours reste valable une invitation ?",
+            "relevant_id": "team-invite",
+            "predicted_id": "team-invite",
+            "correct": true,
+            "top_score": 0.8,
+            "ranked_ids": [
+              "team-invite",
+              "account-delete",
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "test12",
+            "query": "Ajouter un collègue à notre espace de travail",
+            "relevant_id": "team-invite",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test13",
+            "query": "Quels rôles un administrateur peut-il attribuer ?",
+            "relevant_id": "team-role",
+            "predicted_id": "team-role",
+            "correct": true,
+            "top_score": 0.6666666666666666,
+            "ranked_ids": [
+              "team-role",
+              "billing-invoice",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "test14",
+            "query": "Passer un membre de lecteur à éditeur",
+            "relevant_id": "team-role",
+            "predicted_id": "team-role",
+            "correct": true,
+            "top_score": 0.75,
+            "ranked_ids": [
+              "team-role",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "test15",
+            "query": "Est-ce que les filtres actifs limitent le fichier exporté ?",
+            "relevant_id": "data-export",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.6000000000000001,
+            "ranked_ids": [
+              "data-export",
+              "data-import"
+            ]
+          },
+          {
+            "id": "test16",
+            "query": "Récupérer mes colonnes sur une période précise",
+            "relevant_id": "data-export",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.5,
+            "ranked_ids": [
+              "data-export",
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "test17",
+            "query": "Les lignes invalides sont-elles signalées pendant l'import ?",
+            "relevant_id": "data-import",
+            "predicted_id": "data-import",
+            "correct": true,
+            "top_score": 0.7142857142857142,
+            "ranked_ids": [
+              "data-import",
+              "billing-invoice",
+              "notifications"
+            ]
+          },
+          {
+            "id": "test18",
+            "query": "Mon fichier de vingt mégaoctets dépasse-t-il la limite ?",
+            "relevant_id": "data-import",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.4,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "test19",
+            "query": "Une clé API compromise doit être révoquée",
+            "relevant_id": "integration-api",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.3333333333333333,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "test20",
+            "query": "Combien de fois la clé est-elle affichée ?",
+            "relevant_id": "integration-api",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.6000000000000001,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "test21",
+            "query": "Les messages de sécurité restent-ils envoyés sans alertes ?",
+            "relevant_id": "notifications",
+            "predicted_id": "notifications",
+            "correct": true,
+            "top_score": 0.7142857142857142,
+            "ranked_ids": [
+              "notifications",
+              "access-mfa"
+            ]
+          },
+          {
+            "id": "test22",
+            "query": "Je ne veux plus recevoir les notifications email",
+            "relevant_id": "notifications",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.4,
+            "ranked_ids": [
+              "notifications",
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test23",
+            "query": "Avant suppression du compte faut-il exporter les données ?",
+            "relevant_id": "account-delete",
+            "predicted_id": "account-delete",
+            "correct": true,
+            "top_score": 0.8333333333333333,
+            "ranked_ids": [
+              "account-delete",
+              "data-export",
+              "data-import"
+            ]
+          },
+          {
+            "id": "test24",
+            "query": "Je veux effacer mon profil pour toujours",
+            "relevant_id": "account-delete",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.25,
+            "ranked_ids": [
+              "access-mfa",
+              "account-delete",
+              "notifications"
+            ]
+          },
+          {
+            "id": "test25",
+            "query": "Pouvez-vous réserver un billet de train ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test26",
+            "query": "Quelle réduction pour cent membres dans mon équipe ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.25,
+            "ranked_ids": [
+              "team-invite",
+              "team-role"
+            ]
+          },
+          {
+            "id": "test27",
+            "query": "Comment importer un fichier Excel natif XLSX ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.4,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "test28",
+            "query": "Les notifications peuvent-elles arriver par SMS ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.2,
+            "ranked_ids": [
+              "notifications"
+            ]
+          },
+          {
+            "id": "test29",
+            "query": "Puis-je payer ma facture en dollars ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.3333333333333333,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "test30",
+            "query": "Quel temps fera-t-il demain ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          }
+        ]
+      }
+    },
+    "tfidf": {
+      "threshold": 0.45,
+      "development": {
+        "queries": 16,
+        "answerable_queries": 12,
+        "decision_accuracy": 1.0,
+        "coverage": 0.75,
+        "answered_precision": 1.0,
+        "hit_at_1": 1.0,
+        "mrr_at_3": 1.0,
+        "details": [
+          {
+            "id": "dev01",
+            "query": "J'ai oublié mon mot de passe, où demander un lien ?",
+            "relevant_id": "access-password",
+            "predicted_id": "access-password",
+            "correct": true,
+            "top_score": 0.693490740805811,
+            "ranked_ids": [
+              "access-password",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev02",
+            "query": "Je veux activer la double authentification",
+            "relevant_id": "access-mfa",
+            "predicted_id": "access-mfa",
+            "correct": true,
+            "top_score": 0.8032761162991842,
+            "ranked_ids": [
+              "access-mfa"
+            ]
+          },
+          {
+            "id": "dev03",
+            "query": "Où télécharger une facture PDF ?",
+            "relevant_id": "billing-invoice",
+            "predicted_id": "billing-invoice",
+            "correct": true,
+            "top_score": 0.671088045353616,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "dev04",
+            "query": "Comment modifier ma carte bancaire ?",
+            "relevant_id": "billing-card",
+            "predicted_id": "billing-card",
+            "correct": true,
+            "top_score": 0.735116793804409,
+            "ranked_ids": [
+              "billing-card",
+              "team-role"
+            ]
+          },
+          {
+            "id": "dev05",
+            "query": "Je souhaite résilier mon abonnement",
+            "relevant_id": "plan-cancel",
+            "predicted_id": "plan-cancel",
+            "correct": true,
+            "top_score": 0.6181149207540289,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "dev06",
+            "query": "Inviter un nouveau membre par email",
+            "relevant_id": "team-invite",
+            "predicted_id": "team-invite",
+            "correct": true,
+            "top_score": 0.6075948823596355,
+            "ranked_ids": [
+              "team-invite",
+              "team-role",
+              "notifications"
+            ]
+          },
+          {
+            "id": "dev07",
+            "query": "Changer le rôle lecteur en éditeur",
+            "relevant_id": "team-role",
+            "predicted_id": "team-role",
+            "correct": true,
+            "top_score": 0.544388799691911,
+            "ranked_ids": [
+              "team-role",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "dev08",
+            "query": "Exporter les données CSV avec les filtres",
+            "relevant_id": "data-export",
+            "predicted_id": "data-export",
+            "correct": true,
+            "top_score": 0.5495806044149584,
+            "ranked_ids": [
+              "data-export",
+              "data-import",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev09",
+            "query": "Quelle taille maximale pour importer un CSV ?",
+            "relevant_id": "data-import",
+            "predicted_id": "data-import",
+            "correct": true,
+            "top_score": 0.5002112663648232,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "dev10",
+            "query": "Créer une clé API avec des permissions",
+            "relevant_id": "integration-api",
+            "predicted_id": "integration-api",
+            "correct": true,
+            "top_score": 0.7816928586511427,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "dev11",
+            "query": "Désactiver les alertes email",
+            "relevant_id": "notifications",
+            "predicted_id": "notifications",
+            "correct": true,
+            "top_score": 0.65536289450875,
+            "ranked_ids": [
+              "notifications",
+              "team-invite",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "dev12",
+            "query": "Supprimer définitivement mon compte",
+            "relevant_id": "account-delete",
+            "predicted_id": "account-delete",
+            "correct": true,
+            "top_score": 0.4841838400016165,
+            "ranked_ids": [
+              "account-delete",
+              "integration-api"
+            ]
+          },
+          {
+            "id": "dev13",
+            "query": "Quel est le cours du pétrole ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "dev14",
+            "query": "Est-ce que le paiement en cryptomonnaie est accepté ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.2221491891005079,
+            "ranked_ids": [
+              "billing-card"
+            ]
+          },
+          {
+            "id": "dev15",
+            "query": "Combien coûte votre abonnement annuel ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.4370732520177593,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "dev16",
+            "query": "Existe-t-il une application Android ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.1987592922766848,
+            "ranked_ids": [
+              "access-mfa"
+            ]
+          }
+        ]
+      },
+      "test": {
+        "queries": 30,
+        "answerable_queries": 24,
+        "decision_accuracy": 0.4666666666666667,
+        "coverage": 0.3333333333333333,
+        "answered_precision": 0.9,
+        "hit_at_1": 0.875,
+        "mrr_at_3": 0.875,
+        "details": [
+          {
+            "id": "test01",
+            "query": "Mon lien de réinitialisation a expiré, combien de minutes dure-t-il ?",
+            "relevant_id": "access-password",
+            "predicted_id": "access-password",
+            "correct": true,
+            "top_score": 0.4845913869401502,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test02",
+            "query": "Je ne me souviens plus de mon secret de connexion",
+            "relevant_id": "access-password",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.19383655477606007,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test03",
+            "query": "Où conserver mes codes de récupération après activation ?",
+            "relevant_id": "access-mfa",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.3084286843384717,
+            "ranked_ids": [
+              "access-mfa",
+              "account-delete",
+              "access-password"
+            ]
+          },
+          {
+            "id": "test04",
+            "query": "Comment ajouter une seconde vérification à la connexion ?",
+            "relevant_id": "access-mfa",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.19383655477606007,
+            "ranked_ids": [
+              "access-password"
+            ]
+          },
+          {
+            "id": "test05",
+            "query": "Un lecteur peut-il accéder aux factures du mois ?",
+            "relevant_id": "billing-invoice",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.3166405370660468,
+            "ranked_ids": [
+              "billing-invoice",
+              "team-role",
+              "billing-card"
+            ]
+          },
+          {
+            "id": "test06",
+            "query": "Je cherche le justificatif de mon achat en PDF",
+            "relevant_id": "billing-invoice",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.23247171818091,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "test07",
+            "query": "Je veux une autre carte pour le prochain prélèvement",
+            "relevant_id": "billing-card",
+            "predicted_id": "billing-card",
+            "correct": true,
+            "top_score": 0.5130315765097412,
+            "ranked_ids": [
+              "billing-card"
+            ]
+          },
+          {
+            "id": "test08",
+            "query": "Mon moyen de règlement doit être remplacé",
+            "relevant_id": "billing-card",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test09",
+            "query": "Après résiliation, le service reste-t-il accessible ?",
+            "relevant_id": "plan-cancel",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.32092451199915556,
+            "ranked_ids": [
+              "plan-cancel",
+              "team-invite",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test10",
+            "query": "Je voudrais arrêter le renouvellement",
+            "relevant_id": "plan-cancel",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.21853662600887966,
+            "ranked_ids": [
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "test11",
+            "query": "Combien de jours reste valable une invitation ?",
+            "relevant_id": "team-invite",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.42664715471249837,
+            "ranked_ids": [
+              "team-invite",
+              "plan-cancel",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test12",
+            "query": "Ajouter un collègue à notre espace de travail",
+            "relevant_id": "team-invite",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test13",
+            "query": "Quels rôles un administrateur peut-il attribuer ?",
+            "relevant_id": "team-role",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.40303066779917124,
+            "ranked_ids": [
+              "team-role",
+              "billing-invoice",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "test14",
+            "query": "Passer un membre de lecteur à éditeur",
+            "relevant_id": "team-role",
+            "predicted_id": "team-role",
+            "correct": true,
+            "top_score": 0.4939539639291788,
+            "ranked_ids": [
+              "team-role",
+              "team-invite"
+            ]
+          },
+          {
+            "id": "test15",
+            "query": "Est-ce que les filtres actifs limitent le fichier exporté ?",
+            "relevant_id": "data-export",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.36395757318132915,
+            "ranked_ids": [
+              "data-export",
+              "data-import"
+            ]
+          },
+          {
+            "id": "test16",
+            "query": "Récupérer mes colonnes sur une période précise",
+            "relevant_id": "data-export",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.289960422135635,
+            "ranked_ids": [
+              "data-export",
+              "plan-cancel"
+            ]
+          },
+          {
+            "id": "test17",
+            "query": "Les lignes invalides sont-elles signalées pendant l'import ?",
+            "relevant_id": "data-import",
+            "predicted_id": "data-import",
+            "correct": true,
+            "top_score": 0.4565511115077642,
+            "ranked_ids": [
+              "data-import",
+              "team-role",
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "test18",
+            "query": "Mon fichier de vingt mégaoctets dépasse-t-il la limite ?",
+            "relevant_id": "data-import",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.4057597741912352,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "test19",
+            "query": "Une clé API compromise doit être révoquée",
+            "relevant_id": "integration-api",
+            "predicted_id": "integration-api",
+            "correct": true,
+            "top_score": 0.7369870948764271,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "test20",
+            "query": "Combien de fois la clé est-elle affichée ?",
+            "relevant_id": "integration-api",
+            "predicted_id": "integration-api",
+            "correct": true,
+            "top_score": 0.6017474431544604,
+            "ranked_ids": [
+              "integration-api"
+            ]
+          },
+          {
+            "id": "test21",
+            "query": "Les messages de sécurité restent-ils envoyés sans alertes ?",
+            "relevant_id": "notifications",
+            "predicted_id": "notifications",
+            "correct": true,
+            "top_score": 0.5503134576830017,
+            "ranked_ids": [
+              "notifications",
+              "access-mfa"
+            ]
+          },
+          {
+            "id": "test22",
+            "query": "Je ne veux plus recevoir les notifications email",
+            "relevant_id": "notifications",
+            "predicted_id": "notifications",
+            "correct": true,
+            "top_score": 0.505140674242038,
+            "ranked_ids": [
+              "notifications",
+              "team-invite",
+              "account-delete"
+            ]
+          },
+          {
+            "id": "test23",
+            "query": "Avant suppression du compte faut-il exporter les données ?",
+            "relevant_id": "account-delete",
+            "predicted_id": "account-delete",
+            "correct": true,
+            "top_score": 0.7056751685310021,
+            "ranked_ids": [
+              "account-delete",
+              "data-export",
+              "data-import"
+            ]
+          },
+          {
+            "id": "test24",
+            "query": "Je veux effacer mon profil pour toujours",
+            "relevant_id": "account-delete",
+            "predicted_id": null,
+            "correct": false,
+            "top_score": 0.1626065287211651,
+            "ranked_ids": [
+              "account-delete",
+              "notifications",
+              "access-mfa"
+            ]
+          },
+          {
+            "id": "test25",
+            "query": "Pouvez-vous réserver un billet de train ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          },
+          {
+            "id": "test26",
+            "query": "Quelle réduction pour cent membres dans mon équipe ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.39310827178088326,
+            "ranked_ids": [
+              "team-invite",
+              "team-role"
+            ]
+          },
+          {
+            "id": "test27",
+            "query": "Comment importer un fichier Excel natif XLSX ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.4057597741912352,
+            "ranked_ids": [
+              "data-import",
+              "data-export"
+            ]
+          },
+          {
+            "id": "test28",
+            "query": "Les notifications peuvent-elles arriver par SMS ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0.4175325409176945,
+            "ranked_ids": [
+              "notifications"
+            ]
+          },
+          {
+            "id": "test29",
+            "query": "Puis-je payer ma facture en dollars ?",
+            "relevant_id": null,
+            "predicted_id": "billing-invoice",
+            "correct": false,
+            "top_score": 0.46494343636182,
+            "ranked_ids": [
+              "billing-invoice"
+            ]
+          },
+          {
+            "id": "test30",
+            "query": "Quel temps fera-t-il demain ?",
+            "relevant_id": null,
+            "predicted_id": null,
+            "correct": true,
+            "top_score": 0,
+            "ranked_ids": []
+          }
+        ]
+      }
+    }
+  }
+}

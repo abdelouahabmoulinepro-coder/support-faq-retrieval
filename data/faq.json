@@ -1,0 +1,14 @@
+[
+  {"id":"access-password","title":"Réinitialiser un mot de passe oublié","answer":"Sur la page de connexion, sélectionner Mot de passe oublié. Saisir votre adresse email puis ouvrir le lien de réinitialisation. Le lien expire après trente minutes."},
+  {"id":"access-mfa","title":"Activer la double authentification","answer":"Dans Profil puis Sécurité, activer la double authentification. Scanner le code avec une application d'authentification. Conserver les codes de récupération dans un endroit sûr."},
+  {"id":"billing-invoice","title":"Télécharger une facture","answer":"Les factures PDF sont disponibles dans Paramètres puis Facturation. Sélectionner le mois et télécharger la facture. Seul un administrateur peut accéder à la facturation."},
+  {"id":"billing-card","title":"Modifier la carte bancaire","answer":"Dans Facturation puis Paiement, modifier la carte bancaire utilisée pour le prochain prélèvement. Cette action ne change pas les factures déjà émises."},
+  {"id":"plan-cancel","title":"Résilier un abonnement","answer":"Dans Abonnement, choisir Résilier. Le renouvellement est désactivé. Le service reste accessible jusqu'à la fin de la période payée. Aucun remboursement automatique n'est prévu."},
+  {"id":"team-invite","title":"Inviter un membre dans une équipe","answer":"Un administrateur peut inviter un membre depuis Équipe. Saisir son adresse email et choisir son rôle. L'invitation reste valable sept jours."},
+  {"id":"team-role","title":"Changer le rôle d'un membre","answer":"Dans Équipe, sélectionner un membre puis modifier son rôle. Les rôles disponibles sont lecteur, éditeur et administrateur. Seul un administrateur peut effectuer ce changement."},
+  {"id":"data-export","title":"Exporter des données au format CSV","answer":"Dans Données puis Export, choisir les colonnes et la période. Le fichier CSV est encodé en UTF-8. L'export respecte les filtres actifs et les autorisations de lecture."},
+  {"id":"data-import","title":"Importer un fichier CSV","answer":"Dans Données puis Import, déposer un fichier CSV UTF-8 avec une ligne d'en-tête. La taille maximale est de dix mégaoctets. Les lignes invalides sont signalées avant confirmation."},
+  {"id":"integration-api","title":"Créer une clé API","answer":"Dans Intégrations puis API, créer une clé et choisir les permissions. La clé est affichée une seule fois. Pour révoquer une clé, sélectionner Supprimer dans la même page."},
+  {"id":"notifications","title":"Désactiver les notifications email","answer":"Dans Profil puis Notifications, désactiver les alertes email souhaitées. Les messages de sécurité et les factures restent envoyés même lorsque les alertes sont désactivées."},
+  {"id":"account-delete","title":"Supprimer définitivement un compte","answer":"Dans Profil puis Confidentialité, demander la suppression du compte. Confirmer par email. Exporter les données avant la demande : la suppression des données est définitive après trente jours."}
+]

@@ -1,0 +1,18 @@
+[
+  {"id":"dev01","query":"J'ai oublié mon mot de passe, où demander un lien ?","relevant_id":"access-password"},
+  {"id":"dev02","query":"Je veux activer la double authentification","relevant_id":"access-mfa"},
+  {"id":"dev03","query":"Où télécharger une facture PDF ?","relevant_id":"billing-invoice"},
+  {"id":"dev04","query":"Comment modifier ma carte bancaire ?","relevant_id":"billing-card"},
+  {"id":"dev05","query":"Je souhaite résilier mon abonnement","relevant_id":"plan-cancel"},
+  {"id":"dev06","query":"Inviter un nouveau membre par email","relevant_id":"team-invite"},
+  {"id":"dev07","query":"Changer le rôle lecteur en éditeur","relevant_id":"team-role"},
+  {"id":"dev08","query":"Exporter les données CSV avec les filtres","relevant_id":"data-export"},
+  {"id":"dev09","query":"Quelle taille maximale pour importer un CSV ?","relevant_id":"data-import"},
+  {"id":"dev10","query":"Créer une clé API avec des permissions","relevant_id":"integration-api"},
+  {"id":"dev11","query":"Désactiver les alertes email","relevant_id":"notifications"},
+  {"id":"dev12","query":"Supprimer définitivement mon compte","relevant_id":"account-delete"},
+  {"id":"dev13","query":"Quel est le cours du pétrole ?","relevant_id":null},
+  {"id":"dev14","query":"Est-ce que le paiement en cryptomonnaie est accepté ?","relevant_id":null},
+  {"id":"dev15","query":"Combien coûte votre abonnement annuel ?","relevant_id":null},
+  {"id":"dev16","query":"Existe-t-il une application Android ?","relevant_id":null}
+]
